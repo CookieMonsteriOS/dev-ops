@@ -44,13 +44,13 @@ Create a GitHub Actions workflow file at .github/workflows/deploy.yml with the f
 ### 5. Add Secrets to GitHub
 Go to your GitHub repository settings and add the following secrets:
 
-SERVER_USER
-SERVER_HOST
-REPO_URL
-APP_DIR
-DOCKER_IMAGE_NAME
-DOCKER_CONTAINER_NAME
-SSH_KEY_PATH
+- SERVER_USER
+- SERVER_HOST
+- REPO_URL
+- APP_DIR
+- DOCKER_IMAGE_NAME
+- DOCKER_CONTAINER_NAME
+- SSH_KEY_PATH
 
 ### Deployment
 To deploy your React application:
@@ -60,12 +60,12 @@ GitHub Actions will automatically run the deployment script and deploy your appl
 
 your_repository/
 ├── .github/
-│   └── workflows/
-│       └── deploy.yml
+│ └── workflows/
+│ └── deploy.yml
 ├── src/
-│   └── ...
+│ └── ...
 ├── public/
-│   └── ...
+│ └── ...
 ├── Dockerfile
 ├── deploy.sh
 ├── package.json
