@@ -39,7 +39,7 @@ Ensure that your SSH key is added to your SSH agent and the public key is added 
 Use file deploy.sh
 
 ### 4.Configure GitHub Actions
-Create a GitHub Actions workflow file at .github/workflows/deploy.yml with the following content:
+Create a GitHub Actions workflow file at .github/workflows/deploy.yml
 
 ### 5. Add Secrets to GitHub
 Go to your GitHub repository settings and add the following secrets:
