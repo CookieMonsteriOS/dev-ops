@@ -58,6 +58,7 @@ To deploy your React application:
 Push your code to the main branch of your GitHub repository.
 GitHub Actions will automatically run the deployment script and deploy your application to the server.
 
+```
 your_repository/
 ├── .github/
 │ └── workflows/
@@ -70,7 +71,7 @@ your_repository/
 ├── deploy.sh
 ├── package.json
 └── README.md
-
+```
 ### Contributing
 If you want to contribute to this project, please create a pull request or raise an issue.
 
